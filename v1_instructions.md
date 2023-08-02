@@ -56,7 +56,7 @@ Note: Any fields not documented are either unused or are for internal use only
 - `timestamp`: An ISO-8601 string representing when this update was reported by the participant's device
 - `role`: The role of this participant within the network, valid values are: `competitor`, `markStartL`, `markStartR`, `repeater`, `observer`.
 - `speed`: The speed at which this participant is moving, in knots
-- `finish`: Stats related to the boat's finish in this most recent race, [see below](TODO). Can be null
+- `finish`: Stats related to the boat's finish in this most recent race, [see below](#finishing-stats). Can be null
 
 ### Flags
 The current flags in use:
