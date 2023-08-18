@@ -17,7 +17,7 @@
 
     The request should look something like this:  
     ```sh
-    curl -H "X-Custom-PSK: $API_KEY_GOES_HERE" -H "STREAMING_ID: W3HAUxuP0plcNcZFZNek/Test"
+    curl -H "X-Custom-PSK: $API_KEY_GOES_HERE" -H "STREAMING_ID: W3HAUxuP0plcNcZFZNek/Test" https://connection-bundle.vakaros.workers.dev/
     ```
     Optionally you can also include a previously issued JWT be including it in the header like so:
     ```sh
